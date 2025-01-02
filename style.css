@@ -8,34 +8,6 @@
   right: 0;
 }
 
-/* Điện thoại 16:9 */
-@media (max-aspect-ratio: 16/9) and (max-width: 414px) {
-  body {
-    font-size: 14px;
-    padding: 10px;
-  }
-}
-
-/* Điện thoại 21:10 */
-@media (max-aspect-ratio: 21/10) and (max-width: 480px) {
-  body {
-    font-size: 13px;
-    padding: 8px;
-  }
-}
-
-/* Máy tính bảng */
-@media (min-width: 600px) and (max-width: 1024px) {
-  body {
-    font-size: 16px;
-    padding: 15px;
-  }
-
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 * {
   -webkit-user-select: none;
   /* Chrome all / Safari all */
