@@ -8,39 +8,6 @@
   right: 0;
 }
 
-@media (orientation: portrait) {
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #000; /* Màu nền tối */
-    overflow: hidden; /* Ẩn cuộn */
-    color: white; /* Màu chữ */
-    text-align: center;
-  }
-
-  .rotate-notice {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .content {
-    display: none; /* Ẩn nội dung chính khi ở chế độ dọc */
-  }
-}
-
-@media (orientation: landscape) {
-  .rotate-notice {
-    display: none; /* Ẩn thông báo khi ở chế độ ngang */
-  }
-
-  .content {
-    display: block; /* Hiển thị nội dung chính */
-  }
-}
-
 * {
   -webkit-user-select: none;
   /* Chrome all / Safari all */
